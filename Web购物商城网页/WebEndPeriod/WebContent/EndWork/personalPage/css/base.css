@@ -1,0 +1,301 @@
+/* 公共样式 */
+.w{
+    width: 1200px;
+    margin: 0px auto;
+}
+body a{
+    text-decoration: none;
+    color: #000;
+}
+.clearfix::after,
+.clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* 快捷导航 */
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+/* 左浮动 */
+.fl{
+    float: left;
+}
+/* 又浮动 */
+.fr{
+    float: right;
+}
+/* 字体红色 */
+.shortcut .style{
+    color: #c81623;
+}
+
+.shortcut ul li{
+    float: left;
+    
+}
+
+/* 偶数的li */
+.shortcut .fr li:nth-child(even){
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin: 9px 15px 0;
+}
+/* header 头部 */
+.header{
+    position: relative;
+    height: 105px;
+    /* background-color: tomato; */
+}
+
+.logo{
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    width: 175px;
+    height: 56px;
+    
+}
+.logo a{
+    display: block;
+
+    font-size: 0px;
+}
+.logo img{
+    display: block;
+    width: 110px;
+    height: 110px;
+    font-size: 0px;
+}
+
+/* 搜索 */
+.search{
+    position: absolute;
+    left:364px;
+    top:25px;
+    width: 538px;
+    height:36px;
+    border: 2px solid #ffda74;
+}
+.search input{
+    float: left;
+    border: 0;
+    outline: none;
+    width: 458px;
+    height: 35px;
+    padding-left: 10px;
+
+}
+.search button{
+    float: right;
+    width: 80px;
+    height: 36px;
+    background-color: #ffda74;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: 0;
+}
+
+/* 热词 */
+.hotwrods{
+    position: absolute;
+    padding-top: 5px;
+    top: 66px;
+    left: 360px;
+}
+.hotwrods a{
+    margin-left: 10px;
+}
+.hotwrods .style{
+    color: #ffda74;
+}
+
+/* 购物车 */
+.shopcar{
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    line-height: 35px;
+}
+.shopcar a{
+    display: block;
+    float: left;
+   padding-left:10px ;
+} 
+.shopcar .car{
+    color: #ffcb3c;
+}
+/* 购物车小标签 */
+.shopcar .count{
+    position: absolute;
+    top:-8px;
+    left:110px;
+    height: 16px;
+    padding:0px 5px;
+    line-height: 16px;
+    background-color: #ffda74;
+    border-radius: 8px 8px 8px 0;
+}
+
+/* nav 导航 */
+.nav{
+    height: 47px;
+    border-bottom: 2px solid #ffda74;
+}
+.dropdown{
+    width: 210px;
+    height: 47px;
+    background-color: #ffda74;
+}
+
+.dropdown .dt{
+    width: 100%;
+    height: 100%;
+    line-height: 47px;
+    text-align: center;
+    font-size: 16px;
+    color:#fff ;
+}
+.dropdown .dd{
+    /* display: none; */
+    margin-top: 2px;
+    height: 440px;
+    background-color: #ffda74;
+}
+.dd li{
+    position: relative;
+    height: 31px;
+    line-height: 31px;
+    margin-left: 2px;
+}
+.dd li:hover{
+    background-color: #fff;
+}
+.dd li a{
+    font-size: 14px;
+    padding: 10px;
+    color: #fff;
+   
+}
+.dd li:hover a{
+    color: #b1191a;
+   
+}
+.dd li i{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #fff;
+    font-size: 14px;   
+}
+.navitems li{
+    float: left;
+}
+.navitems li a{
+    display: block;
+    padding: 0 30px;
+    height: 47px;
+    line-height: 47px;
+    color: #666666;
+}
+.navitems li a:hover{
+    color: #ffcb3c;
+}
+
+/* 底部 */
+.footer{
+    height: 415px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+.mod_servecie{
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+}
+ .mod_servecie li{
+     float: left;
+    width: 285px;
+    height:50px ;
+    padding-left: 15px;
+   
+} 
+.mod_servecie li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../img/icons3.png) ;
+    margin-right: 15px;
+}
+.service_text h4{
+    font-size: 14px;
+}
+.service_text p{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.mod_help{
+    height: 185px;
+    border-bottom: 2px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+
+} 
+.mod_help dt{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mod_help dd{
+    font-size: 13px;
+ 
+}
+.mod_help dd a{
+    display: block;
+    margin-bottom: 10px;
+}
+.mod_help dl{
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child{
+    width: 90px;
+    text-align: center;
+}
+.mod_help dl p{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.link{
+    text-align: center;
+    margin-top: 20px;
+}
+.link a{
+    margin: 0 5px;
+    font-size: 10px;
+}
+.link a:hover{
+    color: #c81623;
+}
+ .copyright{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.header1{
+    position: relative;
+}
+
+.header1 .logo img{
+    width: 50px;
+    height: 50px;
+}

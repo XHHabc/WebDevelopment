@@ -1,0 +1,123 @@
+/*register.css*/
+.headerd{
+    height: 84px;
+  	border-bottom: 2px solid #ffcb3c; 
+}
+.content{
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.h{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+.h .l{
+    float: left;
+    margin-left: 10px;
+}
+.h .r{
+    float: right;
+    margin-right: 10px;
+}
+.h .r li{
+    float: left;
+}
+.h .r .style{
+    color: #ffcb3c;
+}
+.content .b{
+    width: 600px;
+    margin: 30px auto 0;
+}
+.content .c {
+    width: 600px;
+    margin: 150px auto 0;
+}
+.content .d {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.content .b  label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-left: 10%;
+}
+.content .c  label{
+    display: inline-block;
+    width: 135px;
+    text-align: right;
+    margin-left: 10%;
+}
+.content .d  label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-left: 10%;
+}
+.content .inp {
+    width: 242px;
+    height: 30px;
+    margin: 0 10px 20px;
+    border: 1px solid #ccc;
+}
+.content .b .submit{
+    width: 150px;
+    height: 30px;
+    margin:30px 60px 0px 50px;
+    background-color: #ffcb3c;
+    border: none;
+}
+.content .b .sex{
+    margin:0px 5px 0px 30px;
+    
+}
+
+.content .b i{
+    margin-right: 10px;
+}
+.content .b li{
+    margin-bottom: 10px;
+}
+
+.content .c i{
+    margin-right: 10px;
+}
+.content .c li{
+    margin-bottom: 10px;
+}
+
+.content .d i{
+    margin-right: 10px;
+}
+.content .d li{
+    margin-bottom: 10px;
+}
+
+.c .btn{
+   width: 120px;
+   height: 30px;
+   float: left;
+   margin: 25px 70px 0px 100px;
+   background-color: #ffcb3c;
+   border: none;
+   cursor: pointer;
+   line-height: 30px;
+}
+
+.d .btn{
+   width: 120px;
+   height: 30px;
+   float: left;
+   margin: 25px 30px 0px 80px;
+   background-color: #ffcb3c;
+   border: none;
+   cursor: pointer;
+   line-height: 30px;
+}
+
+
+

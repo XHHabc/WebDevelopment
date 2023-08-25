@@ -1,0 +1,109 @@
+.box1{
+    height: 49px;
+    line-height: 49px;
+}
+.box1 li{
+    float: left;
+    margin: 0px 20px;
+}
+.box1 li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box2{
+    height: 49px;
+    line-height: 49px;
+}
+.box2 li{
+    float: left;
+   
+}
+.box2 li a{
+    display: block;
+    padding: 0px 20px;
+}
+.box2 li a i{
+    margin-left: 5px;
+}
+
+.pages .content{
+    width: 1230px;
+    min-height: 375px;
+    margin: 10px auto;
+    background: #eeeeee3c;
+}
+.pages .content .container{
+    background: #fffcf0;
+    margin: 0 auto;
+    width: 230px;
+    height: 375px;
+    list-style: none;
+    float: left;
+    border: 1px solid transparent;
+    margin-left: 8px;
+    margin-right: 6px;
+    transition: all 1s;
+}
+.pages .content .container:hover{
+   border: 1px solid #ffcb3c;
+   box-shadow: 0px 0px 5px #1313133c;
+}
+.pages .item-img{
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.pages .item-img .pic{
+    width: 100%;
+    height: 100%;
+}
+.pages .item-con .name{
+   display: block;
+   font-size: 20px;
+   text-align: center;
+   margin-left: 10px;
+   color: #242424;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.pages .item-con .info{
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #9c9c9c;
+ }
+ .pages .sanjiao{
+    width:180px ;
+    height: 24px;
+    border: 1px solid #ffcb3c;
+    line-height: 24px;
+    margin: 10px auto;
+ }
+ .pages .sanjiao .ms{
+    position: relative;
+    float: left;
+    width: 90px;
+    height: 100%;
+    background-color: #ffcb3c;
+    text-align: center;
+ }
+ .pages .sanjiao .ms>i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:0 ;
+    height: 0;
+    border-color: transparent #fffcf0 transparent transparent;
+    border-style: solid;
+    border-width: 24px 8px 0 0;
+ }
+ .pages .sanjiao .hx{
+    text-decoration: line-through;
+ }

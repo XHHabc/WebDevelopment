@@ -1,0 +1,92 @@
+.headerd{
+    height: 84px;
+  	border-bottom: 2px solid #ffcb3c; 
+}
+.content{
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+.h{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+.h .l{
+    float: left;
+    margin-left: 10px;
+}
+.h .r{
+    float: right;
+    margin-right: 10px;
+}
+.h .r li{
+    float: left;
+}
+.h .r .style{
+    color: #ffcb3c;
+}
+
+.Left {
+	width: 380px;
+	height: 480px;
+	background-color: #ececec;
+	margin: 0px 10px 0px 0px;
+	position: relative;
+}
+.Left .text{
+	position:absolute;
+	top:30px;
+	left:0;
+}
+.Left .sculpture {
+	margin:20px 0 50px 110px;
+}
+.Left .sculpture img{
+	width:150px;
+	height:150px;
+	border-radius: 50%;
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,.3));
+}
+.Left .text a{
+	display:block;
+	width: 380px;
+	height: 50px;
+	background-color: #ffcb3c;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	margin-top: 23px;
+	font-size: 18px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+.Right{
+	position: absolute;
+	top:80px;
+	left: 530px;
+}
+.content .d {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.content .d  label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-left: 10%;
+}
+.content .inp {
+    width: 242px;
+    height: 30px;
+    margin: 0 10px 20px;
+    border: 1px solid #ccc;
+}
+.content .d i{
+    margin-right: 10px;
+}
+.content .d li{
+    margin-bottom: 10px;
+}

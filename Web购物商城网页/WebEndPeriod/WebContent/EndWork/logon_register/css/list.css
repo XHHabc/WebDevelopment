@@ -1,0 +1,29 @@
+.box1{
+    height: 49px;
+    line-height: 49px;
+}
+.box1 li{
+    float: left;
+    margin: 0px 20px;
+}
+.box1 li a{
+    display: block;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box2{
+    height: 49px;
+    line-height: 49px;
+}
+.box2 li{
+    float: left;
+   
+}
+.box2 li a{
+    display: block;
+    padding: 0px 20px;
+}
+.box2 li a i{
+    margin-left: 5px;
+}

@@ -1,0 +1,69 @@
+/*register.css*/
+.headerd{
+    height: 84px;
+  	border-bottom: 2px solid #ffcb3c; 
+}
+.content{
+    height: 522px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.h{
+    height: 42px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+}
+.h .l{
+    float: left;
+    margin-left: 10px;
+}
+.h .r{
+    float: right;
+    margin-right: 10px;
+}
+.h .r li{
+    float: left;
+}
+.h .r .style{
+    color: #ffcb3c;
+}
+
+.content .d {
+    width: 550px;
+    margin: 80px auto 0;
+}
+
+.content .d  label{
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    margin-left: 10%;
+}
+.content .inp {
+    width: 242px;
+    height: 30px;
+    margin: 0 10px 20px;
+    border: 1px solid #ccc;
+}
+
+.content .d i{
+    margin-right: 10px;
+}
+.content .d li{
+    margin-bottom: 10px;
+}
+
+.d .btn{
+   width: 120px;
+   height: 30px;
+   float: left;
+   margin: 25px 30px 0px 80px;
+   background-color: #ffcb3c;
+   border: none;
+   cursor: pointer;
+   line-height: 30px;
+}
+
+
+
